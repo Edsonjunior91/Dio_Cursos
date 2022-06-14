@@ -1,0 +1,9 @@
+Inserindo imagens no site
+
+<img>
+<img src="img/avatar.jpg"> o atributo src é obrigatorio, pois ele guarda o caminho da imagem
+<img alt="Foto de Junior"> ele é recomendado para melhorar acessibilidade
+
+Endereço https://tinypng.com/
+
+é possivel retirar informações desnecessárias de imagens
