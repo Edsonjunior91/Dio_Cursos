@@ -1,0 +1,28 @@
+Tim Berners Lee criou HTML em 1991
+
+desde 1991 foram criados 5 versões do HTML
+
+HTML 1 - 1991
+HTML 2 - 1995
+HTML 3 - 1997
+HTML 4 - 1997
+HTML 5 - 2014
+
+Elemento é a base HTML
+
+<h1 class="titulo"> Titulo </h1>
+
+Estrutura Básica 
+
+DOCTYPE não é um elemente html, ele 
+<!DOCTYPE html>
+<html>
+	<head>(Dentro do elemento head temos metainformações, informações que o navegador e buscador
+			necessita)
+		<meta>Ela pode ser usada para muitas, como o navegador vai fazer o incode
+		<title></title>
+	</head>
+	<body>
+		Conteudo da pagina
+	</body>
+</html>
