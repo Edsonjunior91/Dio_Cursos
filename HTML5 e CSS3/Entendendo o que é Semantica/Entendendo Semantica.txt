@@ -1,0 +1,23 @@
+O que é semantica?
+era feito todo conteudo utilizando DIV e isso dificultava, pois era utilizado Classes para 
+buscar significado para os elementos
+
+<div class = "section">
+	<div class = "article">
+		<div class = "article_header">
+		</div>
+		<div class = "article_content">
+		</div>
+	</div>
+</div>
+
+
+<section> Representa 
+<header> Cabeçalho da pagina, ou cabeçalho de uma section
+<article>Artigo de blog
+<aside>Conteudo relacionado ao principal da pagina
+<footer>Rodapé da pagina
+<h1> Titulo de uma pagina 
+<h2> Titulo de uma Section
+<H3> Titulo de artigo
+- <h6> 
