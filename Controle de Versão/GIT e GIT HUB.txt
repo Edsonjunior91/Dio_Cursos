@@ -1,0 +1,125 @@
+Git 
+1 - Controle de Versão
+2 - Armazenamento em Nuvem
+3 - Trabalho em equipe
+4 - Melhorar seu Codigo
+5 - Reconhecimento
+
+GUI x CLI
+
+CLI = Command Line Interface
+CD = change directory
+
+rmdir diretorio /S /Q
+
+openssl sha1 texto.txt
+
+echo 'conteudo' | git hash-object --stdin
+
+echo -e 'blob 9\0conteudo' | opensha1
+
+blob é um objeto que encapsula esse comportamento de diretórios               5B1D3
+                                                                       |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯| 
+                        98Ca9                                          |BLOB SIZE       |
+|¯¯¯¯¯¯¯¯¯¯¯|      |¯¯¯¯¯¯¯¯¯¯¯¯¯¯|      |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|----> |testing library | 
+|Commit     |      |COMMIT   SIZE |      |TREE  SIZE            |       ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+|           |      |TREE     92EC2|----> |BLOB  5B1D3  README   |             944E7
+|Tree       |      |AUTHOR   SCOTT|      |BLOB  911E7  LICENCE  |      |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯| 
+|           |      |Commiter SCOTT|      |BLOB  CBA0A  TEST.TXT |----> |BLOB SIZE       |
+|Parente    |       ¯¯¯¯¯¯¯¯¯¯¯¯¯¯        ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯       |licence.xx      | 
+|           |                                          ¦                 ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+|Autor      |                                        CBA0A
+|           |                                   |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+|Mensagem   |                                   |BLOB SIZE        |
+|           |                                   |conteudo test.txt|
+|TimeStamp  |                                    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ ¯¯¯¯¯¯¯¯¯¯¯
+Chave SSH e Token
+
+Chave SSH 
+Comandos para gerar chave ssh no Git
+
+ssh-keygen -t ed25519 -C email@email.com
+[enter]
+
+abrir diretorio que foi criado a chave
+
+Cat id_ed25519.pub 
+
+copiar a chave e colar no GITHUB
+
+em Perfil -> Settings -> SSH and GPG keys -> new SSH key
+
+coloca um titulo para  a chave que esta sendo adicionada
+
+e cola no campo key a chave publica copiada no comando CAT
+
+então clicar em Add SSH key
+
+após efetuado isso é necessario iniciar o ssh agent no GIT CLI, entidade encarregada de pegar as chaves
+
+
+INICIALIZANDO SSH AGENT
+
+GIT CLI -> eval $(ssh-agent-s)
+
+agora pega a chave privada 
+
+ssh-add id_ed25519
+
+Indicando que um diretorio é repositorio local do GIT
+
+git init
+
+configurando Email no git local
+git config --global user.email "email@email.com"
+
+configurando Nome no git local
+git config --global user.name "name name"
+
+
+Listando essas configurações
+
+git config --list
+
+removendo configurações do git
+
+git config --global --unset user.name
+
+Ciclo de vida dos arquivos dentro do GIT
+
+movendo os arquivos para a area de Staged
+
+git add
+
+git add .
+
+git add *
+
+Movendo os arquivos do Staged para Repositorio Local
+
+git commit -m "Nome do Commit" 
+
+Apontando para o Repositorio Remoto
+
+git remote add origin [endereço do Repositorio Remoto]
+
+Listando repositorios remotos cadastrados no diretorio current
+
+git remote -v
+
+origin é um apelido pode ser usado qualquer nome
+
+Para 
+Para enviar as informações ao git hub
+git push origin master
+
+para puxar as informações do git hub
+git pull origin master
+
+Para Clonar um diretorio do git hub
+
+git clone [endereco]
+
+
+
