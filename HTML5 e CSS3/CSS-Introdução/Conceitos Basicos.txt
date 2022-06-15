@@ -1,0 +1,21 @@
+Quando estamos fazendo layout de um site, o navegador representa cada elemento html com uma caixa retangular o que chamamos de box model
+
+Margin
+	Border
+		padding
+			content
+
+criado a classe, com fundo branco, 
+
+.post {
+	background: #FFF;
+	padding: 10px ;
+	border: 3px solid #000;
+	margin: 10px ;
+}
+
+e adicionado cor cinza ao fundo da pagina
+
+body{
+	background: #ccc;
+}
