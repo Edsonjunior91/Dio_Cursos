@@ -1,0 +1,79 @@
+Estilizando Textos
+
+* font-family
+
+#title{
+	font-family: Verdana;
+}
+
+nesse caso caso uma das fontes não funcione a segunda é utilizada
+.post_title{
+	font-family: Verdana; Arial;
+}
+
+
+* font-size = altera o tamanho do texto
+
+#title{
+	font-size: 30px;
+}
+
+.post_title{
+	font-size: 18px;
+}
+
+* font-style - altera a aparencia do texto
+
+#title{
+	font-style: normal;
+}
+
+.subtitle{
+	font-style: italic;
+}
+
+font-weight = peso do texto
+
+#title{
+	font-weight: normal;
+}
+
+.subtitle{
+	font-weight: bold;
+}
+
+* text-transform
+uppercase = todo o texto em caixa alta
+lowercase = todo o texto em caixa baixa, 
+capitalize = todas as primeiras letras de cada palavra em maiuscula
+
+#title{
+	text-transform: uppercase;
+}
+
+.subtitle{
+	text-transform: lowercase;
+}
+
+.post_title{
+	text-transform: capitalize;
+}
+
+* text-decoration = é para dar destaque a algum texto
+underline = coloca uma linha abaixo da palavra
+overline = coloca uma linha acima da palavra
+line-through = coloca uma linha no meio da palavra cortando
+
+
+
+#title{
+	text-decoration: underline;
+}
+
+.subtitle{
+	text-decoration: overline;
+}
+
+.post_title{
+	text-decoration: line-through;
+}
