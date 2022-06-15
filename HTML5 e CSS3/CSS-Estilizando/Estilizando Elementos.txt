@@ -1,0 +1,77 @@
+Estilizando elementos
+
+* Padding
+
+.post{         Y    X
+	padding: 10px 5px;
+}
+
+.post{        topo dire inf esq
+	padding: 15px 10px 5px 0;
+}
+
+.post{
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+
+* Background
+
+.post{
+	background-color: green;
+	background-image: url("imagem.png");
+	background-position: top;
+}
+
+.post{
+	background-color: green;
+	background-color: #008800;
+	background: #008000;
+}
+* Border
+
+Largura: pixel, centimetros, milimetros
+cor: blue, #0000ff...
+Estilo: sólida, pontilhada, tracejada...
+
+.post{
+	border: 3px solid blue;
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+}
+
+.post{
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+	border-bottom: 1px solid purple;
+	border-left: 4px dotted cyan;
+}
+
+.post{                                   .post{				
+	border: 3px solid #505050;    =          border-width: 3px;
+}                                             border-color: #505050;
+                                              border-style: solid;
+								   }	
+
+.post{
+	border-top-width: 3px;
+	border-top-color: blue;
+	border-top-style: solid;
+}				
+
+* Border-radius 
+
+essa propriedade permite arredondar os cantos dos elementos
+           
+          todos os lados
+border-radius: 10px;		
+border-radius: 50%;
+                Y   X
+border-radius: 10% 20%;
+
+               top dire inf esquerda
+border-radius: 10% 20%  15% 22%;
+
+Para estudar sobre, pode ser feito no site https://developer.mozilla.org/pt-BR/
