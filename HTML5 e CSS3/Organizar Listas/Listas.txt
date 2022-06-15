@@ -1,0 +1,6 @@
+Organizar Listas com HTML
+
+Listas servem para agrupar coleção de itens
+<ul> Ordem dos itens não é importante
+<ol> Ordem dos itens é importante, é representado com numeros, letras e algarismos romanos
+<li> é um item da lista
