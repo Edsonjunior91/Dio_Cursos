@@ -1,0 +1,16 @@
+Dimensão e Alinhamento
+
+Width
+Height
+
+Max-width
+Max-height
+
+Margin
+
+Text align
+	* left
+	* right
+	* center
+	* justify
+
