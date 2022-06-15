@@ -1,0 +1,32 @@
+Introdução ao CSS
+
+Em 1996 foi criada a linguagem de estilo, para você criar regras de estilo, para elementos ou grupo de elementos
+
+Uma regra de Css é formada por seletores ou grupo de seletores
+
+ID x Classe
+
+Como podemos formatar estilos pelas seções do HTML, podemos criar Id e Classes para separar formatação por id e por classe
+
+<header id="header" class="header"></header>
+<header class="header"></header>
+
+Em css 
+
+uma classe é precedida por um ponto
+.header {
+	padding: 10px;
+}
+
+E um id é precedido por um hash #, um id só pode ser usado uma vez na pagina
+
+#header{
+	padding: 15px;
+}
+
+
+Para capturar no Html a configuração css
+
+é necessário linkar com o arquivo css
+
+<link rel="stylesheet" href="style.css">
