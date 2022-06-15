@@ -1,0 +1,26 @@
+Estilizando Listas
+
+alterando marcadores das listas
+
+* list-style-type
+
+alterando simbolo para um quadrado na lista não ordenada
+ul{
+	list-style-type: square;
+}
+
+alterando o marcador de uma lista ordenada, para algarismo romano maiusculo
+ol{
+	list-style-type: upper-roman;
+}
+
+o marcador aqui e um emogi joinha
+ul{
+	list-style-type: "\1F44D";
+}
+
+Usando imagens como marcadores com a propriedade list
+* list-style-image
+ul{
+	list-style-image: url("rocket.png");
+}
